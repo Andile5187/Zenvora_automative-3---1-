@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Send Zenvora Automative an enquiry about a service, a vehicle in our showroom, or sponsorship and volunteering opportunities.">
+    <meta name="keywords" content="enquire Zenvora Automative, car price enquiry, service quote Randburg, sponsorship enquiry">
+    <title>Enquiry | Zenvora Automative</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/auth.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+<nav class="nav-container">
+    <div class="logo"></div>
+    <img src="images/Image.jpg" class="nav-logo" alt="Zenvora Automative logo">
+    <div class="nav-links">
+<a href="Home.html">Home|</a>
+<a href="About Us.html">About Us|</a>
+<a href="Services.html">Services|</a>
+<a href="Showroom.html">Showroom|</a>
+<a href="enquiry.html">Enquiry|</a>
+<a href="Contact Us.html">Contact Us|</a>
+</div>
+</nav>
+</header>
+
+<main>
+<h1 align="center">Make an Enquiry</h1>
+<hr>
+<p align="center">Tell us what you're interested in and we'll respond with the cost, availability, or next steps - right here on this page.</p>
+<hr>
+
+<form id="enquiry-form" novalidate>
+
+<div class="field">
+<label for="enquiry-type">I would like to enquire about:</label>
+<select id="enquiry-type" name="enquiry-type">
+<option value="service">A service</option>
+<option value="vehicle">A vehicle in the showroom</option>
+<option value="sponsorship">Sponsorship / volunteering</option>
+</select>
+</div>
+
+<div class="field">
+<label for="enquiry-item">Please choose:</label>
+<select id="enquiry-item" name="enquiry-item"></select>
+</div>
+
+<div class="field">
+<label for="enq-name">Full name:</label>
+<input type="text" id="enq-name" name="enq-name">
+<span class="error-message"></span>
+</div>
+
+<div class="field">
+<label for="enq-email">Email Address:</label>
+<input type="email" id="enq-email" name="enq-email">
+<span class="error-message"></span>
+</div>
+
+<div class="field">
+<label for="enq-phone">Phone Number:</label>
+<input type="tel" id="enq-phone" name="enq-phone">
+<span class="error-message"></span>
+</div>
+
+<div class="field">
+<label for="enq-message">Additional details:</label>
+<textarea id="enq-message" name="enq-message" rows="5" cols="40"></textarea>
+<span class="error-message"></span>
+</div>
+
+<input type="submit" value="Send enquiry">
+<p id="enquiry-response" class="form-status" role="status"></p>
+</form>
+
+</main>
+
+<footer class="site-footer">&copy;ST10483250</footer>
+<script src="js/script.js" defer></script>
+</body>
+</html>

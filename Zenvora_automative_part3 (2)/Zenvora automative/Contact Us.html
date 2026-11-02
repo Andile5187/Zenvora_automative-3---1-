@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Zenvora Automative in Randburg, Johannesburg. Find our address, phone number, business hours and an online enquiry form.">
+    <meta name="keywords" content="contact Zenvora Automative, car dealership Randburg contact, President Ridge Randburg, Malibongwe Drive">
+    <title>Contact Us | Zenvora Automative</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/auth.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+</head>
+<body>
+
+<header class="site-header">
+<nav class="nav-container">
+    <div class="logo"></div>
+    <img src="images/Image.jpg" class="nav-logo" alt="Zenvora Automative logo">
+    <div class="nav-links">
+<a href="Home.html">Home|</a>
+<a href="About Us.html">About Us|</a>
+<a href="Services.html">Services|</a>
+<a href="Showroom.html">Showroom|</a>
+<a href="enquiry.html">Enquiry|</a>
+<a href="Contact Us.html">Contact Us|</a>
+</div>
+</nav>
+</header>
+
+<main>
+<h1 align="center">Contact Us</h1>
+<h3 align="center">ready to purches a car</h3>
+<hr>
+<h3>Our Contact Details</h3>
+
+<div class="contact-grid">
+<p>
+    <b>Address:</b><br>
+    Cnr Malibongwe Dr &amp; Republic Rd,<br> President Ridge, Randburg, 2194
+</p>
+<p>
+    <b>phone number:</b><br>
+    011 515 7089
+</p>
+<p>
+    <b>Email:</b><br>
+    www.ZenvoraAutomative.co.za
+</p>
+<p>
+ <b>Bussiness Hours</b><br>
+ Monday-Friday:9:30-18:30<br>
+ Saturday:10:00-16:30<br>
+ Sunday: closed
+</p>
+</div>
+
+<h3>Find Us</h3>
+<div id="contact-map"></div>
+
+<hr>
+<h3>Send Us a message</h3>
+<form id="contact-form" novalidate>
+<div class="field">
+<label for="Fullname">Full name:</label>
+<input type="text" id="Fullname" name="Fullname">
+<span class="error-message"></span>
+</div>
+<div class="field">
+<label for="Email">Email Address:</label>
+<input type="email" id="Email" name="Email">
+<span class="error-message"></span>
+</div>
+<div class="field">
+<label for="phone">Phone Number</label>
+<input type="tel" id="phone" name="phone">
+<span class="error-message"></span>
+</div>
+<div class="field">
+<label for="Subject">Subject</label>
+<input type="text" id="Subject" name="Subject">
+<span class="error-message"></span>
+</div>
+<div class="field">
+<label for="message">Your message:</label>
+<textarea id="message" name="message" rows="6" cols="40"></textarea>
+<span class="error-message"></span>
+</div>
+<input type="submit" value="Send message">
+<p id="contact-status" class="form-status" role="status"></p>
+</form>
+</main>
+
+<footer class="site-footer">&copy;ST10483250</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+<script src="js/script.js" defer></script>
+</body>
+</html>
