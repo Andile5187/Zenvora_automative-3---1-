@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /documents/
+Disallow: /login.html
+Disallow: /register.html
+
+Sitemap: https://www.zenvoraautomative.co.za/sitemap.xml

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Log in to your Zenvora Automative account.">
+    <meta name="robots" content="noindex">
+    <title>Login | Zenvora Automative</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/auth.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+<nav class="nav-container">
+    <div class="logo"></div>
+    <img src="images/Image.jpg" class="nav-logo" alt="Zenvora Automative logo">
+    <div class="nav-links">
+<a href="Home.html">Home|</a>
+<a href="About Us.html">About Us|</a>
+<a href="Services.html">Services|</a>
+<a href="Showroom.html">Showroom|</a>
+<a href="enquiry.html">Enquiry|</a>
+<a href="Contact Us.html">Contact Us|</a>
+</div>
+</nav>
+</header>
+
+<main>
+<h1 align="center">Login</h1>
+<hr>
+<form id="login-form" class="auth-form" novalidate>
+<div class="field">
+<label for="login-email">Email Address:</label>
+<input type="email" id="login-email" name="email" autocomplete="email">
+<span class="error-message"></span>
+</div>
+<div class="field">
+<label for="login-password">Password:</label>
+<input type="password" id="login-password" name="password" autocomplete="current-password">
+<span class="error-message"></span>
+</div>
+<input type="submit" value="Login">
+<p id="login-status" class="form-status" role="status"></p>
+<p class="auth-switch">New here? <a href="register.html">Create an account</a></p>
+</form>
+</main>
+
+<footer class="site-footer">&copy;ST10483250</footer>
+</body>
+</html>
